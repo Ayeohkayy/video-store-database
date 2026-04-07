@@ -40,4 +40,4 @@ ORDER BY m.title;
 
 ## Example Output
 
-![Available Movies]([Screenshots/Queries/question1_available_movies.jpg](https://github.com/Ayeohkayy/video-store-database/blob/main/Screenshots/Queries/question1_available_movies.jpg))
+![Available Movies]((https://github.com/Ayeohkayy/video-store-database/blob/main/Screenshots/Queries/question1_available_movies.jpg))
