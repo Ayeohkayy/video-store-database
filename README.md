@@ -1,7 +1,7 @@
 # Video Store Database
 
 ## Overview
-This project demonstrates the design and implementation of a relational database for a video rental business using PostgreSQL. It includes schema design, data population, and business-focused SQL queries used to analyze store operations.
+This project designs and implements a relational database for a video rental business using PostgreSQL, including schema development, data population, and business-focused SQL analysis.
 
 ## Tech Stack
 - PostgreSQL
@@ -24,6 +24,12 @@ The database was designed to support:
 - `/Documentation` – project proposal  
 - `/Screenshots` – query results and execution  
 
+## Lessons Learned
+
+- Designed a normalized relational database from business requirements  
+- Built SQL queries to answer real operational and financial questions  
+- Practiced joins, aggregations, and conditional logic for analysis  
+
 ## Example Query
 
 Which movies are currently available for rent?
@@ -38,6 +44,15 @@ JOIN status s ON i.statusid = s.statusid
 WHERE s.status = 'Available'
 ORDER BY m.title;
 
+```
+
 ## Example Output
 
-![Available Movies](https://github.com/Ayeohkayy/video-store-database/blob/main/Screenshots/Queries/question1_available_movies.jpg)
+![Available Movies](https://raw.githubusercontent.com/Ayeohkayy/video-store-database/main/Screenshots/Queries/question1_available_movies.jpg)
+
+
+
+
+## Revenue Analysis
+
+![Revenue](Screenshots/Queries/question8_revenue_breakdown.jpg)
