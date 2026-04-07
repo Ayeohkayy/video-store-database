@@ -37,3 +37,7 @@ JOIN movies m ON i.movieid = m.movieid
 JOIN status s ON i.statusid = s.statusid
 WHERE s.status = 'Available'
 ORDER BY m.title;
+
+## Example Output
+
+![Available Movies](Screenshots/Queries/question1_available_movies.jpg)
